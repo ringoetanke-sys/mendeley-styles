@@ -62,11 +62,6 @@ This style has many limits due to csl constraints, most notably the inability to
     <choose>
       <if variable="page" match="none">
         <choose>
-          <if variable="DOI">
-            <text variable="DOI" prefix="DOI "/>
-          </if>
-        </choose>
-        <choose>
           <if type="webpage">
             <text variable="URL"/>
           </if>

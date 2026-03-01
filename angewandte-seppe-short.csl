@@ -45,7 +45,7 @@ This style has many limits due to csl constraints, most notably the inability to
     </names>
   </macro>
   <macro name="year-date">
-    <group font-weight="bold">
+    <group>
       <choose>
         <if variable="issued">
           <date variable="issued">
@@ -89,7 +89,7 @@ This style has many limits due to csl constraints, most notably the inability to
   </citation>
   <bibliography entry-spacing="0" et-al-min="11" et-al-use-first="10">
     <layout suffix=".">
-      <text variable="citation-number" suffix=". "/>
+      <text variable="citation-number" font-weight="bold" suffix=". "/>
       <text macro="author" suffix=", "/>
       <choose>
         <if type="bill book graphic legal_case legislation motion_picture report song" match="any">
